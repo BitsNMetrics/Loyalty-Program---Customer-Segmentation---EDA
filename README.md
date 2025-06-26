@@ -9,7 +9,7 @@ You are provided with transaction and loyalty data from a shopping mall.
 ## Sample Data Columns Explained
 The dataset contains transactional and customer-level information from NovaMall's loyalty program. Here are some key columns:
 
-<h2>🧾 Dataset Overview</h2>
+<h2>Dataset Overview</h2>
 
 <table>
   <thead>
