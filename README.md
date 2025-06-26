@@ -9,25 +9,91 @@ You are provided with transaction and loyalty data from a shopping mall.
 ## Sample Data Columns Explained
 The dataset contains transactional and customer-level information from NovaMall's loyalty program. Here are some key columns:
 
-Column Name	Description
-InvoiceID	Unique identifier for each transaction
-CustomerID	Unique ID for each customer
-CustomerName	Full name of the customer
-Age	Age of the customer
-Gender	Gender of the customer (e.g., Male, Female, Other)
-JoinDate	Date the customer joined the loyalty program
-VisitDate	Date of the purchase/visit
-Region	Geographical location of the customer (e.g., North, South, East, West)
-Category	Product category (e.g., Apparel, Electronics, Groceries)
-ProductID	Unique identifier for the purchased product
-ProductPrice	Price per unit of the product
-Quantity	Number of units purchased
-TotalSpent	Total amount spent before discount (ProductPrice × Quantity)
-Discount	Discount applied to the transaction
-FinalAmount	Total spent after discount (TotalSpent - Discount)
-PaymentMethod	Payment method used (e.g., Card, Cash, Wallet)
-MembershipStatus	Loyalty tier (e.g., Bronze, Silver, Gold, Platinum)
-Email, Phone	Contact details of the customer (optional for segmentation, not analysis)
+<h2>🧾 Dataset Overview</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Column Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>InvoiceID</td>
+      <td>Unique identifier for each transaction</td>
+    </tr>
+    <tr>
+      <td>CustomerID</td>
+      <td>Unique ID for each customer</td>
+    </tr>
+    <tr>
+      <td>CustomerName</td>
+      <td>Full name of the customer</td>
+    </tr>
+    <tr>
+      <td>Age</td>
+      <td>Age of the customer</td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td>Gender of the customer (e.g., Male, Female, Other)</td>
+    </tr>
+    <tr>
+      <td>JoinDate</td>
+      <td>Date the customer joined the loyalty program</td>
+    </tr>
+    <tr>
+      <td>VisitDate</td>
+      <td>Date of the purchase/visit</td>
+    </tr>
+    <tr>
+      <td>Region</td>
+      <td>Geographical location of the customer (e.g., North, South, East, West)</td>
+    </tr>
+    <tr>
+      <td>Category</td>
+      <td>Product category (e.g., Apparel, Electronics, Groceries)</td>
+    </tr>
+    <tr>
+      <td>ProductID</td>
+      <td>Unique identifier for the purchased product</td>
+    </tr>
+    <tr>
+      <td>ProductPrice</td>
+      <td>Price per unit of the product</td>
+    </tr>
+    <tr>
+      <td>Quantity</td>
+      <td>Number of units purchased</td>
+    </tr>
+    <tr>
+      <td>TotalSpent</td>
+      <td>Total amount spent before discount (ProductPrice × Quantity)</td>
+    </tr>
+    <tr>
+      <td>Discount</td>
+      <td>Discount applied to the transaction</td>
+    </tr>
+    <tr>
+      <td>FinalAmount</td>
+      <td>Total spent after discount (TotalSpent - Discount)</td>
+    </tr>
+    <tr>
+      <td>PaymentMethod</td>
+      <td>Payment method used (e.g., Card, Cash, Wallet)</td>
+    </tr>
+    <tr>
+      <td>MembershipStatus</td>
+      <td>Loyalty tier (e.g., Bronze, Silver, Gold, Platinum)</td>
+    </tr>
+    <tr>
+      <td>Email, Phone</td>
+      <td>Contact details of the customer (optional for segmentation, not analysis)</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Objectives
 
