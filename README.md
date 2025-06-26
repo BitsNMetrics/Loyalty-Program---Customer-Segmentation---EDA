@@ -128,6 +128,9 @@ or any other relevent visulization based on your analysis
 - Jupyter Notebook (`.ipynb`) with code, visuals, and findings
 - A summary markdown/report explaining **3 key business insights**
 
+## Add The Output IPYNB Files in "Test output" FOlder
+ex. file name : Kanishq_EDA.ipynb
+
 
 ## Submission Checklist
 
