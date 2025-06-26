@@ -5,6 +5,30 @@ NovaMall, a large urban shopping mall, recently launched a loyalty program to re
 
 You are provided with transaction and loyalty data from a shopping mall.
 
+
+## Sample Data Columns Explained
+The dataset contains transactional and customer-level information from NovaMall's loyalty program. Here are some key columns:
+
+Column Name	Description
+InvoiceID	Unique identifier for each transaction
+CustomerID	Unique ID for each customer
+CustomerName	Full name of the customer
+Age	Age of the customer
+Gender	Gender of the customer (e.g., Male, Female, Other)
+JoinDate	Date the customer joined the loyalty program
+VisitDate	Date of the purchase/visit
+Region	Geographical location of the customer (e.g., North, South, East, West)
+Category	Product category (e.g., Apparel, Electronics, Groceries)
+ProductID	Unique identifier for the purchased product
+ProductPrice	Price per unit of the product
+Quantity	Number of units purchased
+TotalSpent	Total amount spent before discount (ProductPrice × Quantity)
+Discount	Discount applied to the transaction
+FinalAmount	Total spent after discount (TotalSpent - Discount)
+PaymentMethod	Payment method used (e.g., Card, Cash, Wallet)
+MembershipStatus	Loyalty tier (e.g., Bronze, Silver, Gold, Platinum)
+Email, Phone	Contact details of the customer (optional for segmentation, not analysis)
+
 ## Objectives
 
 1. **Clean and Explore the Data**
