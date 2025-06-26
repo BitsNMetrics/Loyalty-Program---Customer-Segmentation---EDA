@@ -41,13 +41,14 @@ or any other relevent visulization based on your analysis
 
 ## Submission Checklist
 
-- [x] Cleaned dataset and code
-- [x] Insightful EDA
-- [x] Clustering analysis
-- [x] Business insights summarized
-- [x] Visuals included
-- [x] Notebook and README uploaded
+-Cleaned dataset and code
+-Insightful EDA
+-Clustering analysis
+-Business insights summarized
+-Visuals included
+-Notebook and README uploaded
 
----
 
-Feel free to update with actual image links or charts after completing your notebook. Let me know if you’d like a badge section (for tools used like Python, Pandas, Seaborn, etc.) or add collapsible sections using `<details>` for GitHub!
+BEST OF LUCK
+
+
